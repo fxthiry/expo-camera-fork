@@ -213,4 +213,4 @@ export default {
         }
     },
 };
-//# sourceMappingURL=ExponentCameraManager.web.js.map
+//# sourceMappingURL=ExpoCameraManager.web.js.map

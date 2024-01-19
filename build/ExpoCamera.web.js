@@ -3,7 +3,7 @@ import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
 import createElement from 'react-native-web/dist/exports/createElement';
 import { CameraType, } from './Camera.types';
-import CameraManager from './ExponentCameraManager.web';
+import CameraManager from './ExpoCameraManager.web';
 import { capture } from './WebCameraUtils';
 import { PictureSizes } from './WebConstants';
 import { useWebCameraStream } from './useWebCameraStream';
@@ -105,4 +105,4 @@ const styles = StyleSheet.create({
         objectFit: 'cover',
     },
 });
-//# sourceMappingURL=ExponentCamera.web.js.map
+//# sourceMappingURL=ExpoCamera.web.js.map

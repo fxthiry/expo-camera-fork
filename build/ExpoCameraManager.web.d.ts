@@ -1,5 +1,5 @@
 import { CameraCapturedPicture, CameraPictureOptions, PermissionResponse } from './Camera.types';
-import { ExponentCameraRef } from './ExponentCamera.web';
+import { ExponentCameraRef } from './ExpoCamera.web';
 declare const _default: {
     readonly name: string;
     readonly Type: {
@@ -39,4 +39,4 @@ declare const _default: {
     requestMicrophonePermissionsAsync(): Promise<PermissionResponse>;
 };
 export default _default;
-//# sourceMappingURL=ExponentCameraManager.web.d.ts.map
+//# sourceMappingURL=ExpoCameraManager.web.d.ts.map
